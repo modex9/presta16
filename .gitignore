@@ -1,0 +1,122 @@
+# Private config files
+/config/settings.*.php
+/config/settings.*.bck
+/config/defines.inc.php
+/config/xml/*.xml
+/config/xml/themes/*.xml
+
+# Core directories
+/admintestas/
+/img/
+/docs/
+
+# Core files
+/webservice/php_errors.log
+
+# Root files
+/robots.txt
+
+# Global directories
+log/
+!/classes/log/
+!/override/classes/log/
+cache/
+!/classes/cache/
+!/override/classes/cache/
+download/
+upload/
+
+# Global files
+*sitemap*.xml
+.htaccess
+.htpasswd
+
+# Translations directories
+/translations/
+/themes/*/modules/*/translations/
+/themes/*/lang/
+/themes/*/pdf/lang/
+/modules/*/translations/
+/modules/emailgenerator/templates_translations/
+
+# Theme directories
+/themes/*/cache/
+/themes/*/sass-cache/
+
+# Module directories
+/modules/*/uploads/
+/modules/*/logs/
+
+# Module files
+/modules/*/config*.xml
+/modules/*/php_errors.log
+/modules/*/update.json
+
+# External directories
+/.idea/
+/deploy/
+/coded_design/
+
+# Paysera file
+/paysera*.html
+
+# Specific module directories/files
+/modules/ph_simpleblog/covers/
+/modules/ph_simpleblog/covers_cat/
+/modules/ph_simpleblog/featured/
+/modules/ph_simpleblog/galleries/
+/modules/ph_simpleblog/css/custom.css
+/modules/gamification/views/css/
+/modules/gamification/data/
+/modules/omnivaltshipping/locations.json
+/modules/blockbanner/img/
+/modules/homeslider/images/
+/modules/homesliderpro/images/
+/modules/prgenericsync/.gitignore
+/modules/prgenericsync/cache/
+!/modules/prgenericsync/models/cache/
+!/modules/prgenericsync/vendor/psr/log/
+!/modules/prgenericimport/vendor/psr/log/
+/modules/prgenericimport/logs/
+/modules/prgenericimport/providers/*/logs/
+/modules/blockadvertising/img/*
+!/modules/blockadvertising/img/fixtures/
+/modules/blocktopcategory/img/*
+!/modules/blocktopcategory/img/fixtures/
+/modules/blockstore/*.jpg
+!/modules/blockstore/store.jpg
+/modules/blockstore/*.png
+!/modules/blockstore/logo.png
+/modules/blockstore/*.gif
+!/modules/blockstore/logo.gif
+/modules/newsletter/*export*.csv
+/modules/newsletterpro/backup/*/xml/*.php
+!/modules/newsletterpro/backup/*/xml/index.php
+/modules/newsletterpro/backup/*/sql/*.php
+!/modules/newsletterpro/backup/*/sql/index.php
+/modules/newsletterpro/csv/*.csv
+!/modules/newsletterpro/csv/sample.csv
+/modules/newsletterpro/csv/*/*.csv
+!/modules/newsletterpro/csv/*/sample.csv
+!/modules/newsletterpro/views/css/cache
+/modules/iqitmegamenu/css/iqitmegamenu_*.css
+/modules/iqitmegamenu/export/*.csv
+/modules/iqitmegamenu/iqitmegamenu_*.csv
+/modules/iqitcontentcreator/export/*.csv
+!/modules/iqitcontentcreator/export/creator_sample.csv
+/modules/iqitcontentcreator/css/iqitcreator_*.css
+/modules/iqitcountdown/css/custom_*.css
+/modules/iqitpopup/css/iqitpopup_*.css
+/modules/iqitfreedeliverycount/views/css/custom_*.css
+/modules/cartabandonmentpro/views/js/fileman/Uploads/
+/modules/cartabandonmentpro/mails/
+/modules/cartabandonmentpro/tpls/
+/modules/blocknewsletter/*.csv
+/modules/themeeditor/*.csv
+/modules/themeeditor/export/*.csv
+/modules/themeeditor/css/*.css
+/modules/jscomposer/import/*.zip
+/modules/jscomposer/update-log.txt
+/modules/onboarding/css/onboarding.css
+
+# Custom ignores
